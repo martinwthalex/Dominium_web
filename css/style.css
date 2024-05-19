@@ -47,3 +47,8 @@ footer{
 p{
     font-family: "Antonio", sans-serif;
 }
+
+.dominium-link a{
+    text-decoration: underline;
+    color: yellow;
+}
