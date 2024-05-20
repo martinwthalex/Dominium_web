@@ -16,6 +16,8 @@ img{
     height: 50%;
 }
 
+
+/* MENU INICIAL */
 .menu-container{
     background-color: rgb(101, 14, 111);
     padding-right: 80px;
@@ -55,8 +57,12 @@ img{
     align-items: center;
 }
 
+
+/* SECCION PRINCIPAL */
 .main-section{
     background-color: #0b0a2d;
+    width: 100%;
+    height: 60vh;
 }
 
 .game-title{
@@ -64,11 +70,11 @@ img{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 25px 0 0 0;
+    margin-top: 10vh;
 }
 
 .game-title h1{
-    font-size: 120px;
+    font-size: 150px;
     color: blueviolet;
 }
 
@@ -86,6 +92,230 @@ img{
     height: auto;
 }
 
+.main-section .game-desc{
+    margin: 100px 15vw;
+}
+
+.game-desc h2{
+    color: blueviolet;
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+
+/* SECCION PROTAGONISTA */
+.prota-container{
+    width: 100%;
+    height: 15vh;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.prota-container h1{
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 130px;
+    margin-top: 8px;
+}
+
+.prota-container img{
+    width: auto;
+    height: auto;
+    margin: 10px 0px 0px 60px;
+}
+
+/* WHITY CONTAINER  */
+.whity-container{
+    width: 100%;
+    height: 15vh;
+    
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.whity-container div{
+    align-items: flex-end;
+}
+
+.whity-container h3{
+    font-size: 14px;
+    text-align: center;
+    color: aliceblue;
+    width: 30%;
+    height: auto;
+    margin-left: 50px;
+    align-self: center;
+}
+
+.whity-container div h1{
+    color: aliceblue;
+    font-size: 130px;
+    height: 100%;
+    margin-top: 5px;    
+}
+
+.whity-container div{
+    height: 100%;
+    align-self: flex-end;
+}
+
+.whity-container img{
+    width: auto;
+    height: 90%;
+    margin: 15px 0 0 0;
+}
+
+/* APLY CONTAINER  */
+.aply-container{
+    width: 100%;
+    height: 15vh;
+    
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.aply-container div{
+    align-items: flex-end;
+}
+
+.aply-container h3{
+    font-size: 14px;
+    text-align: center;
+    color: red;
+    width: 30%;
+    height: auto;
+    margin-left: 50px;
+    align-self: center;
+    order: 2;
+}
+
+.aply-container div h1{
+    color: red;
+    font-size: 130px;
+    height: 100%;
+    margin-top: 5px;    
+}
+
+.aply-container div{
+    height: 100%;
+    align-self: flex-end;
+}
+
+.aply-container img{
+    width: auto;
+    height: 90%;
+    margin: 12px 0 0 0;    
+}
+
+.aply-container div:last-child{
+    order: -1;
+    margin-left: 25px;
+}
+
+
+/* SUSH CONTAINER  */
+.sush-container{
+    width: 100%;
+    height: 15vh;
+    
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.sush-container div{
+    align-items: flex-end;
+}
+
+.sush-container h3{
+    font-size: 14px;
+    text-align: center;
+    color: orange;
+    width: 30%;
+    height: auto;
+    margin-left: 50px;
+    align-self: center;
+}
+
+.sush-container div h1{
+    color: orange;
+    font-size: 130px;
+    height: 100%;
+    margin-top: 5px;    
+}
+
+.sush-container div{
+    height: 100%;
+    align-self: flex-end;
+}
+
+.sush-container img{
+    width: auto;
+    height: 90%;
+    margin: 18px 0 0 0;
+}
+
+
+/* SPORY CONTAINER  */
+.spory-container{
+    width: 100%;
+    height: 15vh;
+    
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.spory-container div{
+    align-items: flex-end;
+}
+
+.spory-container h3{
+    font-size: 14px;
+    text-align: center;
+    color: yellow;
+    width: 30%;
+    height: auto;
+    margin-left: 50px;
+    align-self: center;
+    order: 2;
+}
+
+.spory-container div h1{
+    color: yellow;
+    font-size: 130px;
+    height: 100%;
+    margin-top: 5px;    
+}
+
+.spory-container div{
+    height: 100%;
+    align-self: flex-end;
+}
+
+.spory-container img{
+    width: auto;
+    height: 90%;
+    margin: 12px 0 0 0;
+}
+
+.spory-container div:last-child{
+    order: -1;
+    margin-left: 25px;
+}
+
+
+/* FOOTER */
 footer{
     display: flex; 
     align-items: flex-end;
