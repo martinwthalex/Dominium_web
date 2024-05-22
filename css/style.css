@@ -56,7 +56,7 @@ img{
     align-items: center;
 }
 
-.menu-logo{
+.menu-logo, .company-logo{
     height: 10vh;
     width: 10vh;
     display: flex;
@@ -177,7 +177,7 @@ img{
 }
 
 .whity-container h3{
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
     color: #E9D5E4;
     width: 30%;
@@ -222,7 +222,7 @@ img{
 }
 
 .aply-container h3{
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
     color: #B43020;
     width: 30%;
@@ -274,7 +274,7 @@ img{
 }
 
 .sush-container h3{
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
     color: #FA6A0A;
     width: 30%;
@@ -320,7 +320,7 @@ img{
 }
 
 .spory-container h3{
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
     color: #FFD541;
     width: 30%;
@@ -355,10 +355,29 @@ img{
     margin-left: 25px;
 }
 
-.line{
+.playnow-container{
     width: 100%;
     height: 25vh;
     background-color: #650E6F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.playnow-container a{
+    text-decoration: none;
+}
+
+.playnow-container h1{
+    color: #F9C73A;
+    font-family: "Antonio", sans-serif;    
+    font-size: 120px;
+}
+
+.playnow-container img{
+    height: auto;
+    width: 70px;
 }
 
 .gameplay-container{
@@ -704,4 +723,310 @@ footer a{
 
 .end-container h3{
     margin: 0 25px;
+}
+
+
+/* TABLET */
+@media only screen and (max-width: 900px) {
+    /* body{
+        background-color: aqua;
+    } */
+
+    .menu-container{
+        padding: 0;
+    }
+
+    .menu-opt{
+        gap: 0px;
+    
+    }
+    
+    .menu-opt a{
+        font-size: 8px;
+    }
+    
+    .menu-opt li:not(:first-child) div{
+        width: 60px;
+        height: 20px;
+        border-radius: 15px;
+    }
+    
+    .menu-logo{
+        padding-left: 25px;
+    }
+    
+    .menu-logo img{
+        height: auto;
+        width: 30px;
+    }
+
+    .company-logo{
+        margin-left: 25px;
+    }
+
+    .company-logo img{
+        height: auto;
+        width: 30px;
+    }
+
+    /* MAIN SECTION */
+    .main-section{
+        height: 50vh;
+    }
+    
+    /* .game-title{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5vh;
+    } */
+    
+    .game-title h1{
+        font-size: 80px;
+    }
+    
+    .game-title h1:not(:first-child){
+        letter-spacing: 12px;
+    }
+    
+    .title-logo{
+        width: 100px;
+    }
+    
+    .main-section .game-desc{
+        margin: 40px 50px;
+    }
+    
+    .game-desc h2{
+        font-size: 15px;
+        font-weight: lighter;
+    }
+
+
+    /* SECCION COMIC */
+    .comic-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        gap: 15px;
+        padding: 30px;
+    }
+
+    .comic-container h1{
+        font-size: 60px;
+    }
+
+    .comic-container img{
+        height: auto;
+        width: 150px;
+    }
+
+
+
+    /* SECCION PROTAGONISTA */
+    .prota-container{
+        gap: 20px;
+        height: 20vh;
+    }
+
+    .prota-container h1{
+        font-size: 110px;
+    }
+
+    .prota-container img{
+        margin: 10px 0px 0px 30px;
+    }
+
+    /* WHITY CONTAINER  */
+    .whity-container{
+        gap: 0px;
+        height: 20vh;
+        overflow: hidden;
+    }
+
+    .whity-container div{
+        align-items: flex-start;
+    }
+
+    .whity-container h3{
+        font-size: 10px;
+        text-align: left;
+        width: 100%;
+        height: 100%;
+        margin-right: 40px;
+        order: 1;
+    }
+
+    .whity-container div{
+        height: 100%;
+        align-self: flex-start;
+    }
+
+    /* APLY CONTAINER  */
+    .aply-container{
+        width: 100%;
+        height: 20vh;
+        gap: 0px;
+        overflow: hidden;
+    }
+
+    .aply-container div{
+        align-items: flex-end;
+    }
+
+    .aply-container h3{
+        font-size: 10px;
+        text-align: left;
+        margin-left: 15px;
+    }
+
+
+    .aply-container div:last-child{
+        margin-left: 0px;
+    }
+
+
+    /* SUSH CONTAINER  */
+    .sush-container{
+        height: 20vh;
+        gap: 0px;
+        overflow: hidden;
+    }
+
+    .sush-container h3{
+        font-size: 10px;
+        text-align: left;
+        margin-left: 0px;
+        order: 1;
+    }
+
+
+    /* SPORY CONTAINER  */
+    .spory-container{
+        height: 20vh;
+        gap: 0px;
+        overflow: hidden;
+    }
+
+    .spory-container h3{
+        font-size: 10px;
+        text-align: left;
+        margin-left: 15px;
+    }
+
+
+    .spory-container div:last-child{
+        order: -1;
+        margin-left: 25px;
+    }
+
+    .video-container iframe{
+        height: 100%;
+        width: 100%;
+    }
+
+
+    .playnow-container h1{
+        font-size: 60px;
+    }
+
+    #about_us{
+        overflow: hidden;
+    }
+
+    #about_us h2{
+        font-size: 10px;
+    }
+
+    #about_us h3{
+        font-size: 10px;
+    }
+    
+    footer h3{
+        font-size: 10px;
+
+    }
+
+}
+
+
+/* MOVIL */
+@media only screen and (max-width: 450px) {
+    
+    .menu-logo{
+        display: none;
+    }
+
+    .menu-opt{
+        gap: 0px;
+        margin: 0;
+        padding: 0;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    .menu-opt img{
+        display: none;
+    }
+
+    .comic-container h1{
+        display: none;
+    }
+
+    .game-title h1{
+        font-size: 25px;
+    }
+
+    .title-logo{
+        width: 25px;
+    }
+
+    .game-desc h2{
+        font-size: small;
+    }
+
+    .prota-container h1{
+        display: none;
+    }
+
+    .whity-container h1, h3{
+        display: none;
+    }
+
+    .aply-container h1, h3{
+        display: none;
+    }
+
+    .sush-container h1, h3{
+        display: none;
+    }
+
+    .spory-container h1, h3{
+        display: none;
+    }
+
+    .playnow-container{
+        flex-wrap: wrap;
+    }
+
+    footer h2, h3{
+        display: none;
+    }
+
+    .icons-container{
+        display: none;
+    }
+
+    .titles-container{
+        display: none;
+
+    }
+
+    .end-container{
+        display: none;
+    }
 }
