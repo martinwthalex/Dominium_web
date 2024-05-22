@@ -20,7 +20,7 @@ img{
 
 /* MENU INICIAL */
 .menu-container{
-    background-color: rgb(101, 14, 111);
+    background-color: #650E6F;
     padding-right: 80px;
 }
 
@@ -35,10 +35,15 @@ img{
 
 .menu-opt a{
     text-decoration: none;
-    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #FFD541;
+    letter-spacing: 1px;
 }
 
 .menu-opt li:not(:first-child) div{
@@ -76,7 +81,8 @@ img{
 
 .game-title h1{
     font-size: 150px;
-    color: blueviolet;
+    color: #650E6F;
+    font-family: "Antonio", sans-serif;
 }
 
 .game-title h1:not(:first-child){
@@ -98,10 +104,11 @@ img{
 }
 
 .game-desc h2{
-    color: blueviolet;
+    color: #650E6F;
     text-align: center;
     font-size: 25px;
     font-weight: lighter;
+    font-family: "Baloo 2", sans-serif;
 }
 
 /* SECCION COMIC */
@@ -118,6 +125,7 @@ img{
     color: #650E6F;
     font-size: 80px;
     text-align: center;
+    font-family: "Antonio", sans-serif;
 }
 
 .comic-container img{
@@ -131,7 +139,7 @@ img{
 .prota-container{
     width: 100%;
     height: 15vh;
-    background-color: yellow;
+    background-color: #FFD541;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -139,10 +147,11 @@ img{
 }
 
 .prota-container h1{
-    color: blueviolet;
+    color: #793A80;
     font-weight: bold;
-    font-size: 130px;
-    margin-top: 8px;
+    font-size: 110px;
+    /* margin-top: 0px; */
+    font-family: "Antonio", sans-serif;
     /* text-align: end; */
 }
 
@@ -157,7 +166,7 @@ img{
     width: 100%;
     height: 15vh;
     
-    background-color: blueviolet;
+    background-color: #793A80;
     display: flex;
     flex-direction: row;
     gap: 50px;
@@ -170,18 +179,20 @@ img{
 .whity-container h3{
     font-size: 14px;
     text-align: center;
-    color: aliceblue;
+    color: #E9D5E4;
     width: 30%;
     height: auto;
     margin-left: 50px;
     align-self: center;
+    font-family: "Baloo 2", sans-serif;
 }
 
 .whity-container div h1{
-    color: aliceblue;
-    font-size: 130px;
+    color: #E9D5E4;
+    font-size: 110px;
     height: 100%;
-    margin-top: 5px;    
+    margin-top: 5px;
+    font-family: "Antonio", sans-serif;    
 }
 
 .whity-container div{
@@ -200,7 +211,7 @@ img{
     width: 100%;
     height: 15vh;
     
-    background-color: aliceblue;
+    background-color: #E9D5E4;
     display: flex;
     flex-direction: row;
     gap: 50px;
@@ -213,19 +224,21 @@ img{
 .aply-container h3{
     font-size: 14px;
     text-align: center;
-    color: red;
+    color: #B43020;
     width: 30%;
     height: auto;
     margin-left: 50px;
     align-self: center;
     order: 2;
+    font-family: "Baloo 2", sans-serif;
 }
 
 .aply-container div h1{
-    color: red;
-    font-size: 130px;
+    color: #B43020;
+    font-size: 110px;
     height: 100%;
-    margin-top: 5px;    
+    margin-top: 5px;  
+    font-family: "Antonio", sans-serif;    
 }
 
 .aply-container div{
@@ -250,7 +263,7 @@ img{
     width: 100%;
     height: 15vh;
     
-    background-color: red;
+    background-color: #B43020;
     display: flex;
     flex-direction: row;
     gap: 50px;
@@ -263,18 +276,20 @@ img{
 .sush-container h3{
     font-size: 14px;
     text-align: center;
-    color: orange;
+    color: #FA6A0A;
     width: 30%;
     height: auto;
     margin-left: 50px;
     align-self: center;
+    font-family: "Baloo 2", sans-serif;
 }
 
 .sush-container div h1{
-    color: orange;
-    font-size: 130px;
+    color: #FA6A0A;
+    font-size: 110px;
     height: 100%;
-    margin-top: 5px;    
+    margin-top: 5px;  
+    font-family: "Antonio", sans-serif;    
 }
 
 .sush-container div{
@@ -294,7 +309,7 @@ img{
     width: 100%;
     height: 15vh;
     
-    background-color: orange;
+    background-color: #FA6A0A;
     display: flex;
     flex-direction: row;
     gap: 50px;
@@ -307,18 +322,20 @@ img{
 .spory-container h3{
     font-size: 14px;
     text-align: center;
-    color: yellow;
+    color: #FFD541;
     width: 30%;
     height: auto;
     margin-left: 50px;
     align-self: center;
     order: 2;
+    font-family: "Baloo 2", sans-serif;
 }
 
 .spory-container div h1{
-    color: yellow;
-    font-size: 130px;
+    color: #FFD541;
+    font-size: 110px;
     height: 100%;
+    font-family: "Antonio", sans-serif;    
     margin-top: 5px;    
 }
 
@@ -341,12 +358,12 @@ img{
 .line{
     width: 100%;
     height: 25vh;
-    background-color: blueviolet;
+    background-color: #650E6F;
 }
 
 .gameplay-container{
-    height: 50vh;
-    background-color: yellow;
+    height: auto;
+    background-color: #FFD541;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -355,55 +372,336 @@ img{
 }
 
 .gameplay-container h1{
-    color: blueviolet;
+    color: #650E6F;
+    text-align: center;
+    font-family: "Antonio", sans-serif;    
+}
+
+.gameplay-container > div:nth-child(3) h1{
+    color: #650E6F;
+    text-transform: uppercase;
+}
+
+
+/* Slideshow container */
+
+.slideshow-container img{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+.slideshow-container {
+    max-width: 865px;
+    position: relative;
+    margin-top: 4em;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.85);
+    font-family: "Antonio", sans-serif; 
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
     text-align: center;
 }
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 
 
 /* ABOUT US */
 #about_us > div:nth-child(1) > h1{
     text-align: center;
+    font-size: 96px;
+    font-weight: bold;
+    color: #E9D5E4;
+    font-family: "Antonio", sans-serif;    
+    background-color: black;
 }
 
 #about_us  > div:nth-child(1){
     background-color: blue;
 }
 
-#about_us  > div:not(:first-child){
-    background-color: aliceblue;
+.devs-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 8vw;
+    row-gap: 50px;
+    padding: 50px 0;
+    background-color: black;
+    font-family: "Antonio", sans-serif;    
 }
 
-.devs-container > div:nth-child(1) .desc-container{
+.devs-container div{
+    width: 21vw;
+    /* height: 60%; */
+    padding: 15px;
+    border-radius: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.linkedn-logo{
+    width: 25%;
+    height: auto;
+    margin: 0 35%;
+    padding-top: 20px;
+}
+.devs-container img:not(.linkedn-logo){
+    height: auto;
+    width: 50%;
+    margin-bottom: 5px;
+    margin: 0 25%;
+}
+
+
+.devs-container h3:not(:last-child){
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.devs-container h2{
+    text-align: left;
+    margin-top: 5px;
+}
+
+/* CLARA */
+.cl-desc-container{
     background-color: #650E6F;
 }
 
-.devs-container > div:nth-child(2) .desc-container{
+.cl-desc-container h2{
+    color: #E9D5E4;
+    font-size: 21px;
+}
+
+.cl-desc-container h3{
+    color: #E9D5E4;
+}
+
+/* CANDELA */
+.can-desc-container{
     background-color: #FA6A0A;
 }
-.devs-container > div:nth-child(3) .desc-container{
+
+.can-desc-container h2{
+    color: #FFFFFF;
+}
+
+.can-desc-container h3{
+    color: #FFFFFF;
+}
+
+/* JOSU */
+.jos-desc-container{
     background-color: #FFD541;
 }
-.devs-container > div:nth-child(4) .desc-container{
+
+.jos-desc-container h2{
+    color: #B43020;
+}
+
+.jos-desc-container h3{
+    color: #B43020;
+}
+
+/* ALEX */
+.alex-desc-container{
     background-color: #B43020;
 }
-.devs-container > div:nth-child(5) .desc-container{
+
+.alex-desc-container h2{
+    color: #E9D5E4;
+}
+
+.alex-desc-container h3{
+    color: #E9D5E4;
+}
+
+/* GONZALO */
+.gon-desc-container{
     background-color: #E9D5E4;
 }
 
-/* FOOTER */
-footer{
-    display: flex; 
-    align-items: flex-end;
-}
-.footer-container{
-    width: 100%;
-    
-}
-p{
-    font-family: "Antonio", sans-serif;
+.gon-desc-container h2{
+    color: #650E6F;
 }
 
-.dominium-link a{
-    text-decoration: underline;
-    color: yellow;
+.gon-desc-container h3{
+    color: #650E6F;
+}
+
+
+footer{
+    background-color: #0A0940;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0;
+    font-family: "Antonio", sans-serif;    
+}
+
+footer h3{
+    color: #CDCDCD;
+    font-size: 14px;
+    text-align: center;
+}
+
+footer div{
+    /* background-color: #717171; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 25vw;
+    gap: 10px;
+}
+
+/* footer div:first-child{
+    gap: 10px;
+} */
+
+
+.titles-container{
+    background-color: #03031D;
+    width: 40%;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.icons-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.icons-container img{
+    height: 10%;
+    width: 10%;
+}
+
+footer a{
+    text-decoration: none;
+    color: #CDCDCD;
+}
+
+.end-container{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Antonio", sans-serif;    
+}
+
+.end-container div:last-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.end-container img{
+    width: 30px;
+    height: auto;
+    margin: 0 25px;
+}
+
+.end-container h3{
+    font-size: 14px;
+    color: #CDCDCD;
+    font-weight: lighter;
+}
+
+.end-container h3{
+    margin: 0 25px;
 }

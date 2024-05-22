@@ -14,6 +14,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+    </style>
+
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap');
+    </style>
+
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+    </style>
+
 </head>
 <body>
     
@@ -47,12 +59,16 @@
                         <a href="#projects">Projects</a>
                     </div>
                 </li>
+
+                <li class="menu-logo">
+                    <img src="/media/img/company-logo.png" alt="logo">
+                </li>
                                 
             </ul>
         </nav>
     </div>
 
-    <div class="main-section">
+    <div class="main-section" id="home">
         <div class="game-title">
             <h1>D</h1>
             
@@ -89,7 +105,7 @@
         </div>
     </div>
 
-    <div class="prota-container">
+    <div class="prota-container" id="characters">
         <img src="/media/img/prota.png" alt="protagonist">
         <h1>SPC.02</h1>
     </div>
@@ -143,14 +159,98 @@
     </div>
 
 
-    <div class="gameplay-container">
+    <div class="gameplay-container" id="projects">
         <div>
-            <h1>GAMEPLAY</h1>
+            <h1>TRAILER</h1>
         </div>
 
         <div class="video-container">
-            <video src=""></video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ShKQlJ_tdm8?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
+
+        <div>
+            <h1>Mecánicas</h1>
+        </div>
+        
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 10</div>
+                <img src="/media/img/cap_bslide.png" />
+                <div class="text">Baba que desliza</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 10</div>
+                <img src="/media/img/cap_enemyp.png" />
+                <div class="text">Pistola de plataformas</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 10</div>
+                <img src="/media/img/cap_jp.png" />
+                <div class="text">Salto</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 10</div>
+                <img src="/media/img/cap_movPlat.png" />
+                <div class="text">CheckPoints</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 10</div>
+                <img src="/media/img/cap_platMov.png" />
+                <div class="text">Movimiento por el mapa</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 10</div>
+                <img src="/media/img/cap_pch.png" />
+                <div class="text">Pinchos</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 10</div>
+                <img src="/media/img/cap_platBr.png" />
+                <div class="text">Plataformas que se rompen</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 10</div>
+                <img src="/media/img/cap_platMov.png" />
+                <div class="text">Movimiento por plataformas</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">9 / 10</div>
+                <img src="/media/img/cap_ps.png" />
+                <div class="text">Menu de pausa</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">10 / 10</div>
+                <img src="/media/img/cap_spw.png" />
+                <div class="text">Spawners</div>
+            </div>
+            <!-- El atributo onclick se utiliza para llamar a una función de JavaScript cuando se hace clic en un elemento. -->
+
+            <!-- Cuando hacemos click en este link <a> restamos una posición en los slides -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
+            <!-- Cuando hacemos click en este link <a> sumamos una posición en los slides -->
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+
+        <div class="dots">
+            <!-- Cuando hacemos click en los puntos, nos lleva a la posición del slide correspondiente. -->
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <!-- Esta etiqueta <script> se utiliza para incrustar o hacer referencia a un script ejecutable en un documento HTML.  -->
+        <script src="js/script.js"></script>
     </div>
 
 
@@ -164,27 +264,29 @@
         <div class="devs-container">
 
             <div>
-                <div class="desc-container">
-                    <img src="" alt="">
+                <div class="cl-desc-container">
+                    <img src="media/img/clara.png" alt="Face">
 
                     <h2>Clara Martín-Mendiluce</h2>
-                    <br>
-                    <h3>Lead Artist-Concept</h3>
+                    
+                    <h3>LEAD ARTIST-CONCEPT</h3>
                     <br>
                     <h3>
                         Como artista, su trabajo se caracteriza por la realizacion de las viñetas de cómic de la historia y la creación tanto de concepts de personajes como de props para el videojuego.
                         <br>                        
-                        <a href="https://www.linkedin.com/in/clara-martin-mendiluce-be%C3%B1aran-081b9a236/" target="_blank">Linkedn</a>
+                        <a href="https://www.linkedin.com/in/clara-martin-mendiluce-be%C3%B1aran-081b9a236/" target="_blank">
+                            <img src="media/img/linkedn_logo.png" alt="linkedn" class="linkedn-logo">
+                        </a>
                     </h3>
                 </div>
             </div>
 
             <div>
-                <div class="desc-container">
-                    <img src="" alt="">
+                <div class="can-desc-container">
+                    <img src="media/img/candela.png" alt="Face">
 
                     <h2>Candela Gamboa</h2>
-                    <br>
+                    
                     <h3>
                         Lead Producer - Level Designer -
                         <br>
@@ -194,17 +296,19 @@
                     <h3>
                         Como productora, lleva la gestión de tareas del equipo; la creación de niveles y mapas y su implementación en Unity; y las RRSS de Garbage Games.
                         <br>                        
-                        <a href="https://www.linkedin.com/in/candela-gamboa-s%C3%A1nchez-blanco-905319291/" target="_blank">Linkedn</a>
+                        <a href="https://www.linkedin.com/in/candela-gamboa-s%C3%A1nchez-blanco-905319291/" target="_blank">
+                            <img src="media/img/linkedn_logo.png" alt="linkedn" class="linkedn-logo">
+                        </a>
                     </h3>
                 </div>
             </div>
 
             <div>
-                <div class="desc-container">
-                    <img src="" alt="">
+                <div class="jos-desc-container">
+                    <img src="media/img/josu.png" alt="Face">
 
                     <h2>Josue García</h2>
-                    <br>
+                    
                     <h3>
                         Lead Animator - Pixel Artist -
                         <br>
@@ -214,33 +318,37 @@
                     <h3>
                         Su trabajo se caracteriza por la realizacion de las animaciones de los personajes y creación de estos en pixelart, además de diseño de mecánicas y concept artist.
                         <br>                        
-                        <a href="https://www.linkedin.com/in/josu%C3%A9-garc%C3%ADa-iglesias-ab7224291/" target="_blank">Linkedn</a>
+                        <a href="https://www.linkedin.com/in/josu%C3%A9-garc%C3%ADa-iglesias-ab7224291/" target="_blank">
+                            <img src="media/img/linkedn_logo.png" alt="linkedn" class="linkedn-logo">
+                        </a>
                     </h3>
                 </div>
             </div>
 
             <div>
-                <div class="desc-container">
-                    <img src="" alt="">
+                <div class="alex-desc-container">
+                    <img src="/media/img/alex.png" alt="Face">
 
                     <h2>Alejandro Martín</h2>
-                    <br>
+                    
                     <h3>Lead Programmer</h3>
                     <br>
                     <h3>
                         Como principal programador su trabajo se centra en la programación del videojuego, las mecánicas de personajes, plataformas, reparación de bugs... utilizando el motor de Unity.
                         <br>                        
-                        <a href="https://www.linkedin.com/in/alejandro-martin-b24a65273/" target="_blank">Linkedn</a>
+                        <a href="https://www.linkedin.com/in/alejandro-martin-b24a65273/" target="_blank">
+                            <img src="media/img/linkedn_logo.png" alt="linkedn" class="linkedn-logo">
+                        </a>
                     </h3>
                 </div>
             </div>
 
             <div>
-                <div class="desc-container">
-                    <img src="" alt="">
+                <div class="gon-desc-container">
+                    <img src="media/img/gonzalo.png" alt="Face">
 
                     <h2>Gonzalo Barcones</h2>
-                    <br>
+                    
                     <h3>
                         Programmer-Concept-Designer-
                         <br>
@@ -250,43 +358,72 @@
                     <h3>
                         Su trabajo se caracteriza por la realizacion del menu inicial y de opciones, los TileSets, y la participacion en la organizacion del proyecto y diseño de mecanicas.
                         <br>                        
-                        <a href="https://www.linkedin.com/in/gonzalo-barcones-975558290/" target="_blank">Linkedn</a>
+                        <a href="https://www.linkedin.com/in/gonzalo-barcones-975558290/" target="_blank">
+                            <img src="media/img/linkedn_logo.png" alt="linkedn" class="linkedn-logo">
+                        </a>
                     </h3>
                 </div>
             </div>
         </div>
     </div>
-    <!-- <br>
-    <br>
-    <br>
+
+
     <footer>
-        <div class="footer-container">
-            
-            <div>
-                <h2>About us</h2>
-                <p>CopyRight Dominium 2024</p>
-                <p>Somos un grupo de estudiantes que esta desarrollando este videojuego para un proyecto de la universidad. porfavor no critiquen. Tratamos de subsistir nada mas, gracias :)</p>
-                
+        <div>
+            <div class="titles-container">
+                <h3>About us</h3>
             </div>
-            <div>
-                <h2>Contact</h2>
-                <p>Av. Alfonso XIII, 97, Chamartín, 28016 Madrid</p>
-                <p>garbage.games@gmail.com</p>
-                
-                <div class="dominium-link">
-                    <a href="https://ggarbagegames.itch.io/dominium" target="_blank">
-                        <h2>Play Dominium now!</h2>
-                    </a>
-                </div>
+            <div class="company-container">
+                <img src="media/img/company-logo.png" alt="company-logo">
+                <img src="/media/img/company-name.png" alt="company-name">
             </div>
-            <div>
-                Questions & Answers
-                <p>-Controls:</p>
-                <p>Move: WASD  /  Actions: IJKL </p>
-                <p>-Updates:</p>
-                <p>Every year :)</p>
-            </div>
+            <h3>Somos un grupo de estudiantes que esta desarrollando este videojuego para un proyecto de la universidad. porfavor no critiquen. Tratamos de subsistir nada más, gracias.</h3>
         </div>
-    </footer> -->
+
+        <div>
+            <div class="titles-container">
+                <h3>Contact</h3>
+            </div>
+            <div class="icons-container">
+                <img src="/media/img/insta_icon.png" alt="Icon">
+                <img src="/media/img/linkedn_logo.png" alt="Icon">
+                <img src="/media/img/tw_icon.png" alt="Icon">
+                <img src="/media/img/itchio_icon.png" alt="Icon">
+                <img src="/media/img/discord_icon.png" alt="Icon">
+            </div>
+            <h3>garbage.games@gmail.com
+                <a href="https://ggarbagegames.itch.io/dominium" target="_blank">https://ggarbagegames.itch.io/dominium</a>
+            </h3>
+        </div>
+
+        <div>
+            <div class="titles-container">
+                <h3>FAQ´S</h3>
+            </div>
+            <div>
+                <h3>-Controls?
+                    <br>
+                    Move: WASD  /  Actions: IJKL
+                </h3>
+                <h3>-Updates?
+                    <br>
+                    Every year.
+                </h3>
+            </div>            
+        </div>
+    </footer>
+
+    <div class="end-container">
+        <div>
+            <img src="/media/img/Ojo_fabicon.png" alt="Icon">
+        </div>
+
+        <div>
+            <h3>Cookies Policy</h3>
+            <h3>Legal Terms</h3>
+            <h3>Privacity Policy</h3>
+        </div>
+    </div>
+
 </body>
 </html>
